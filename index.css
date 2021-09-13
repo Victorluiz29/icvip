@@ -1,0 +1,382 @@
+/*Pagina Inicial*/
+
+
+
+
+img{
+	font-size: 100px
+
+}
+body{
+	background-color: #8FBC8F
+}
+
+title{
+
+	height: 100px
+}
+
+
+
+
+.nome p{
+	margin-left: 35%
+
+}
+
+
+
+.nome1{
+	margin-left: 190px;
+
+	position: relative;
+	top: 50px;
+}
+
+
+
+.nome{
+	display: flex;
+	font-size: 250%
+}
+
+.nome p{
+
+padding: 5px
+
+}
+
+.dev1{
+
+	float: right;
+	margin-top: -60px;
+}
+
+
+.dev1 a{
+	font-size: 20px;
+
+	color: red;
+}
+
+
+#menu{
+    line-height: 40px;
+	background-color: white;
+}
+
+
+
+
+#menu a:hover{
+	color: 	#778899;
+}
+
+
+
+.pgi{
+
+	display: flex;
+	margin: 40px
+	
+}
+
+.pgi img{
+
+	width: 400px;
+}
+
+.div_2 img{
+
+	height: 300px;
+}
+
+
+.div_2 p{
+	
+	
+	color: black
+	
+}
+
+.div_2{
+
+	float: left;
+}
+
+
+
+
+.div_4{
+
+	float: right;
+}
+
+
+.div_3 p{
+	color: black
+}
+
+
+.pg{
+
+	display: flex;
+
+	
+	margin:30px;
+}
+
+.pg img{
+
+	width: 400px
+}
+
+.div_5 img{
+
+	height: 300px;
+}
+
+
+
+.irlanda{
+	display: flex;
+	margin: 30px
+}
+
+.irlanda img{
+
+	width: 400px
+}
+
+.div_8 img{
+
+	height: 300px;
+}
+
+.div_9 img{
+
+	height: 300px;
+}
+
+.div_10 img{
+
+	height: 300px;
+}
+
+
+
+
+
+
+center {
+	font-family: cambria;
+	font-size: 47px		
+}
+
+
+
+a{
+	margin-bottom: 1000px
+	margin: 10px;
+	padding: 8px;
+
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+.body-container{
+	display: block;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+
+
+
+.contatos{
+	width: 50%;
+	font-size: 20px;
+	color: white;
+	float: left;
+	
+	background-color: black
+}
+
+
+
+.div_11 p{
+	color: white;
+	
+}
+
+.div_12 p{
+
+    color: white	
+}
+
+.div_13 p{
+	color: white	
+}
+
+.endereço{
+	font-size: 20px
+}
+
+.endereço{
+	color: white;
+
+	width: 50%;
+	float: left;
+	background-color: black;
+
+}
+
+
+.rede img{
+
+
+	width: 35px
+
+}
+
+.rede li{
+	
+	list-style-type: none;
+		
+}
+
+
+.rede{
+	display: flex;
+	margin-top: 50px;
+	position: absolute;
+	float: right;
+	right: 50px;
+
+
+}
+
+
+
+
+footer{
+
+	
+}
+
+@media (max-width: 990px) {
+
+	.rede{
+		clear: both;
+		margin-right: -100px;
+		margin-top: -4390px;
+		
+	}
+
+	#menu{
+
+		width: 480px;
+	}
+
+	
+	.nome1{
+		top: 20px;
+		margin-left: 30px;
+
+	}
+
+	.dev1 a{
+		display: flex;
+		margin-left: -414px;
+		position: absolute;
+		margin-top: 30px;
+
+		font-size: 17px;
+	}
+
+    .pg{
+    	display: unset;
+    }
+
+    .pgi{
+
+    	display: unset;
+    }
+
+    .irlanda{
+    	display: unset;
+    }
+
+   
+
+    iframe{
+    	clear: both;
+    	margin-left: -0px;
+    	margin-top: -10px;
+    	width: 480px;
+    }
+
+.div_2 {
+	margin-left: 40px;
+
+	width: 450px;
+}
+
+.div_3 {
+	clear: both;
+	margin-left: 40px;
+
+	
+}
+
+.div_4{
+	width: 450px;
+	
+	clear: both;
+
+	margin-right: -70px;
+}
+
+
+.div_6,.div_5{
+	clear: both;
+
+	margin-left: 40px;
+}
+
+.div_7{
+
+	margin-left: 40px;
+}
+
+.div_8,.div_9,.div_10{
+	clear: both;
+
+	margin-left: 40px;
+}
+
+.contatos,.endereço{
+
+	clear: both;
+
+	width: 480px;
+}
+
+
+#rodape{
+	clear: both;
+	margin-top: -20px;
+}
+
+}
+
+
+
+
+
+
+
+

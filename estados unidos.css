@@ -1,0 +1,194 @@
+/*estados unidos CSS*/
+
+body{
+	background-color: #8FBC8F
+}
+
+.img1 img{
+	height: 300%
+}
+
+a{
+	padding: 8px;
+	text-decoration: none;
+	margin: 20px auto;
+	color: black;
+}
+
+#menu a:hover{
+	color: #778899;
+}
+
+#menu{
+    line-height: 40px;
+	background-color: white;
+}
+
+
+.dev1{
+
+	float: right;
+	margin-top: -55px
+}
+
+
+.dev1 a{
+	font-size: 20px;
+
+	color: red;
+}
+
+
+
+.USA{
+	display: flex;
+}
+
+
+
+.div_1 img{
+	width: 300px
+
+}
+
+
+img{
+	width: 500px;
+
+	max-height: 230px;
+}
+
+
+
+.contatos{
+	width: 50%;
+	font-size: 20px;
+	color: white;
+	float: left;
+	
+	background-color: black;
+}
+
+
+
+.endereço{
+	font-size: 20px;
+	width: 50%;
+	
+	float: right;
+	background-color: black;
+
+}
+
+
+.endereço p{
+	color: white
+
+}
+
+.rede img{
+
+	width: 35px
+
+}
+
+.rede li{
+	list-style-type: none;
+	padding: 10px
+}
+
+
+.rede{
+	display: flex;
+	margin-top: 50px;
+	position: absolute;
+	float: right;
+	right: 50px;
+	
+}
+
+@media screen and (max-width: 990px){
+
+
+	img{
+		width: 550px;
+
+		
+	}
+
+	#menu a{
+		
+
+		padding: 6px;
+	}
+
+	#menu{
+		font-size: 20px;
+		
+
+		width: 550px;
+	}
+
+	.dev {
+		clear: both;
+		
+
+		
+		font-size: 17px;
+
+		margin-top: 70px;
+
+		margin-right: 150px;
+	}
+
+	.div_10{
+
+		font-size: 20px;
+	}
+
+
+	iframe{
+		clear: both;
+		margin-top: 0px;
+		max-height: 430px;
+
+		width: 540px;
+	}
+
+
+	.mapa1 iframe{
+
+
+		width: 550px;
+	}
+
+	.img1{
+		clear: both;
+		text-align: center;
+
+		float: right;
+	}
+
+	.rede{
+		
+		
+		margin-right: -170px;
+
+		margin-top: -2100px;
+	}
+
+.contatos,.endereço{
+
+	
+
+	width: 550px;
+}
+
+
+
+}
+
+
+
+
+

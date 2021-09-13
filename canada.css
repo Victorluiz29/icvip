@@ -1,0 +1,229 @@
+/* canada CSS */
+
+body{
+	background-color: #8FBC8F
+	
+}
+
+
+
+img{
+	width: 500px;
+
+	max-height: 230px;
+}
+
+
+
+
+.dev1{
+
+	float: right;
+	margin-top: -55px
+}
+
+
+.dev1 a{
+	font-size: 20px;
+
+	color: red;
+}
+
+
+a{
+	padding: 8px;
+	text-decoration: none;
+
+	color: black;
+}
+
+
+#menu a:hover{
+	color: #778899;
+}
+
+#menu{
+    line-height: 40px;
+	background-color: white;
+}
+
+
+.canada{
+	color: black
+	display: flex;
+	
+}
+
+.div_1 pre{
+
+}
+
+.div_2 p{
+	color: black
+
+}
+
+
+.contatos{
+	width: 50%;
+	font-size: 20px;
+	color: white;
+	float: left;
+	
+	background-color: black;
+}
+
+
+.div_11 p{
+	color: white;
+	
+}
+
+.div_12 p{
+
+    color: white	
+}
+
+.div_13 p{
+	color: white	
+}
+
+
+
+.endereço{
+	width: 50%;
+	font-size: 20px;
+	float: right;
+	background-color: black;
+
+}
+
+.endereço p{
+
+	color: white
+}
+
+
+.rede img{
+
+	width: 35px
+
+}
+
+.rede li{
+	list-style-type: none;
+	padding: 10px
+}
+
+
+.rede{
+	margin-bottom: 100px;
+	display: flex;
+	margin-top: 50px;
+	position: absolute;
+	float: right;
+	right: 60px;
+	
+}
+
+@media screen and (max-width: 990px){
+
+	img{
+
+		clear: both;
+
+		width: 590px;
+	}
+
+	#menu a{
+		font-size: 20px;
+
+		padding: 6px;
+	}
+
+	#menu{
+
+		width: 600px;
+	}
+
+	.rede{
+
+		
+	}
+
+	
+
+	.dev1 a{
+		display: flex;
+		margin-bottom: -100px;
+
+		margin-right: 140px;
+
+
+		font-size: 20px;
+	}
+
+	.canada iframe{
+		max-height: 430px;
+
+		width: 590px;
+	}
+
+
+	.div_1,.div_5,.div_2{
+		width: 570px;
+
+		font-size: 20px;
+	}
+
+
+
+	.mapa1 iframe{
+		margin-right: -50px;
+
+		margin-top: -3px;
+		 
+
+		width: 590px;
+	}
+
+	.rede{
+		width: 35px;
+		
+		margin-right: -80px;
+
+		top: 250px;
+	}
+
+	.contatos{
+		clear: both;
+		width: 590px;
+
+		margin: auto;
+	}
+
+	.endereço{
+
+		clear: both;
+		width: 590px;
+		margin-right:-20px;
+	}
+
+	
+
+
+h1{
+	
+
+	margin-top: 50px;
+}
+
+
+	strong{
+
+		margin-top: -100px;
+
+		margin-right: 220px;
+	}
+
+}

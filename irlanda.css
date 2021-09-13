@@ -1,0 +1,189 @@
+/*irlanda CSS*/
+
+body{
+	background-color: #8FBC8F
+}
+
+a{
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:hover{
+	color: #778899;
+}
+
+#menu{
+    line-height: 40px;
+	background-color: white;
+}
+
+
+.dev1{
+
+	float: right;
+	margin-top: -55px;
+}
+
+
+.dev1 a{
+	font-size: 20px;
+
+	color: red;
+}
+
+
+img{
+	max-height: 230px;
+
+	width: 500px;
+}
+
+
+
+
+.contatos{
+	width: 50%;
+	font-size: 20px;
+	color: white;
+	float: left;
+	
+	background-color: black;
+}
+
+
+
+.endereço{
+	font-size: 20px;
+	width: 50%;
+	float: right;
+	background-color: black;
+}
+
+
+.endereço p{
+	color: white
+}
+
+.rede img{
+
+	width: 35px
+
+}
+
+.rede li{
+	list-style-type: none;
+	padding: 10px
+}
+
+
+.rede{
+	display: flex;
+	margin-top: 50px;
+	position: absolute;
+	float: right;
+	right: 50px;
+	
+}
+
+
+@media screen and (max-width: 990px){
+
+	img{
+
+		width: 590px;
+	}
+
+	#menu a{
+
+		padding: 6px;
+	}
+
+	#menu{
+		font-size: 20px;
+
+		width: 600px;
+	}
+
+	
+
+	.dev1 a{
+		font-size: 20px;
+
+		display: flex;
+		margin-right: 154px;
+		margin-top: 60px;
+		clear: both;
+
+
+		font-size: 20px;
+	}
+
+	h1{
+		position: absolute;
+		clear: both;
+
+		margin-top: 50px;
+	}
+
+	.div_1,.div_2{
+
+		width: 570px;
+
+		font-size: 20px;
+	}
+
+	.mapa iframe{
+
+		margin-top: -10px;
+
+		width: 590px;
+	}
+
+	iframe{
+		clear: both;
+		margin-top: 100px;
+		max-height: 430px;
+
+		width: 590px;
+	}
+
+	.rede img{
+
+		width: 45px;
+	}
+
+	.rede{
+		margin-right: -200px;
+
+		top: 250px;
+	}
+
+	.center{
+
+		margin-right: 200px;
+	}
+
+
+	.contatos{
+		
+		width: 590px;
+
+		margin: auto;
+	}
+
+
+  .endereço{
+
+  	margin-right: -20px;
+
+  	width: 590px;
+  }
+
+}
+
+
+
+
+
